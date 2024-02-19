@@ -1,17 +1,30 @@
 package com.teste.primeiroexemplo.model;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
 public class Produto {
     
     //#region Atributos
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id_produto")
     private Integer id;
 
+    @Column
     private String nome;
 
+    @Column
     private Integer quantidade;
 
+    @Column
     private Double valor;
     
+    @Column
     private String observacao;
 
     //#endregion
