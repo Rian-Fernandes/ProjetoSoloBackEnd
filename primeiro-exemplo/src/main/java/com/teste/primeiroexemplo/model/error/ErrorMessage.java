@@ -8,7 +8,6 @@ public class ErrorMessage {
     private String mensagem;
 
     
-
     public ErrorMessage(String titulo, Integer status, String mensagem) {
         this.titulo = titulo;
         this.status = status;
