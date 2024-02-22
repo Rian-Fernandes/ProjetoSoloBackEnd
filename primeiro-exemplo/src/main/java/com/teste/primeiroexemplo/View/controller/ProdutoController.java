@@ -1,4 +1,4 @@
-package com.teste.primeiroexemplo.controller;
+package com.teste.primeiroexemplo.View.controller;
 
 import java.util.List;
 import java.util.Optional;
